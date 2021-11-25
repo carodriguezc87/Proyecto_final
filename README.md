@@ -42,7 +42,7 @@ Una vez tenga instalado el OS y su Raspberry funcionando deberá instalar alguna
  
   Para copiar los scripts en la Raspberry Pi, debe crear primero la carpeta "ProyectoFinal" en la ruta pi/Documents/ y copiar allí los archivos .py que se encuentran en la carpeta "Códigos" de este repositorio, de tal modo que la ruta donde estarían los archivos quedaría de la siguiente forma: pi/Documents/ProyectoFinal/.
   Una vez copiado los archivos, necesitará otorgarle permisos de ejecución a los archivos main.py, read_file.py y read_switch.py. Esto lo puede hacer usando el siguiente comando:
-  **$ chmod u=x {archivo.py}**
+  **$ chmod u+x {archivo.py}**
   
   Los archivos de configuración para ejecutar las tareas programadas se encuentran en la carpeta "systemd" de este repositorio y debe ubicarlos en la ruta /etc/systemd/system/ de la raspberry. Para esto necesita permisos de super usuario.
   
