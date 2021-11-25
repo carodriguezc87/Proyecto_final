@@ -48,7 +48,7 @@ Una vez tenga instalado el OS y su Raspberry funcionando deberá instalar alguna
   
 **Conexiones**
 
-Los sensores se conectan por el bus I2C 1 de la raspberry y el LED en el GPIO 17 como se aprecia en el siguiente linkConexiones.jpg. Para mas detalles del pinado, consulte el siguiente [link](https://pinout.xyz/).
+Los sensores se conectan por el bus I2C 1 de la raspberry y el LED en el GPIO 17 como se aprecia en la siguiente [imagen](https://github.com/carodriguezc87/Proyecto_final/blob/83a111a619e9d4bd4c97e752e8b0a4ea2f26aa75/Conexiones.jpg). Para mas detalles del pinado, consulte el siguiente [link](https://pinout.xyz/).
 
 ## Pruebas ⚙️
 
