@@ -1,0 +1,14 @@
+[Unit]
+Description= execute read_switch.py every 2 seconds after network online
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Documents/Proyecto_final/pruebas/read_switch.py
+User=pi
+WorkingDirectory=/home/pi/Documents/PruebasTemp/
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description= execute read_switch.py every 2 seconds
+
+[Timer]
+OnUnitActiveSec=2s
+AccuracySec=100ms
+OnBootSec=10s
+
+[Install]
+WantedBy=timers.target

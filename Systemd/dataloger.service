@@ -1,0 +1,13 @@
+[Unit]
+Description=Take data from sensors and save it in a file .csv
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/Documents/ProyectoFinal/main.py
+User=pi
+WorkingDirectory=/home/pi/Documents/ProyectoFinal/
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
