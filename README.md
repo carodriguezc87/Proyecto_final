@@ -48,7 +48,7 @@ Una vez tenga instalado el OS y su Raspberry funcionando deberá instalar alguna
   
 **Conexiones**
 
-Los sensores se conectan por el bus I2C 1 de la raspberry y el LED en el GPIO 17. Para mas detalles del pinado, consulte el siguiente [link](https://pinout.xyz/).
+Los sensores se conectan por el bus I2C 1 de la raspberry y el LED en el GPIO 17 como se aprecia en el siguiente linkConexiones.jpg. Para mas detalles del pinado, consulte el siguiente [link](https://pinout.xyz/).
 
 ## Pruebas ⚙️
 
@@ -70,7 +70,7 @@ Para los feed luminocidad, humedad y temperatura seleccione el bloque de tipo in
 Adicional, debe reemplazar en los archivos "read_file.py" y "read_switch.py", que fueron copiados previamente a la Raspberry, las constantes IO_KEY e IO_USERNAME por los valores que le otorga la plataforma Adafruit IO.
 
 >Para más detalles consulte la documentación en los siguientes enlaces:
->- [Crear Dasboard y feeds](https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io)
+>- [Crear Dashboard y feeds](https://learn.adafruit.com/welcome-to-adafruit-io/getting-started-with-adafruit-io)
 >- [Consultar llave y usuario](https://learn.adafruit.com/welcome-to-adafruit-io/securing-your-io-account) 
 
 ### Prueba 1
@@ -107,4 +107,4 @@ Reinice la Raspberry y verifique que las tareas se ejecuten como en las pruebas 
 ## Autores✒️
 
 - Ingrid Zulay Casallas Rodríguez
-- Carlos Alberto Rodrìguez Cucanchón
+- Carlos Alberto Rodríguez Cucanchón
